@@ -506,6 +506,13 @@ ul {
   flex-shrink: 0;
   fill: #f4f4fd;
 }
+
+.form-subscribe{
+  display: block;
+  flex-direction: column;
+}
+
+
 .container {
   width: 1158px;
   padding: 0 15px;
