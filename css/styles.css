@@ -622,7 +622,26 @@ ul {
 
 .backdrop-form{
   margin-bottom: 8px;
+}
 
+.backdrop-label-name{
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px; 
+}
+.container-form-name{
+  position: relative;
+}
+
+.input-form-name{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  
 }
 .container {
   width: 1158px;
