@@ -650,6 +650,9 @@ ul {
 .input-form-name:focus {
   border-color: #4d5ae5;
 }
+.input-form-name:focus .img-form-name-backdrop{
+  fill: #4D5AE5;
+}
 
 .img-form-name-backdrop {
   position: absolute;
