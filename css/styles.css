@@ -664,6 +664,9 @@ ul {
 .img-form-backdrop:focus {
   fill: #4d5ae5;
 }
+.icon-person-backdrop{
+  fill:#4d5ae5;
+}
 
 .container-form-comment {
   margin-bottom: 16px;
@@ -710,6 +713,7 @@ ul {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .checkbox-form-input:checked + .checkbox-form-label > .checkbox-form-own {
@@ -718,11 +722,14 @@ ul {
   fill: #f4f4fd;
 }
 
+
 .form-checkbox-backdrop-link {
   color: #4d5ae5;
+  text-decoration: underline;
 }
 
 .form-backdrop-button-sent {
+  margin: 0 auto;
   display: block;
   min-width: 169px;
   height: 56px;
