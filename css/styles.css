@@ -529,7 +529,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding-left: 16px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
@@ -597,7 +597,7 @@ ul {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-backdrop-close:hover,
 .btn-backdrop-close:focus {
@@ -650,8 +650,8 @@ ul {
 .input-form:focus {
   border-color: #4d5ae5;
 }
-.input-form:focus + .img-form-backdrop{
-  fill: #4D5AE5;
+.input-form:focus + .img-form-backdrop {
+  fill: #4d5ae5;
 }
 
 .img-form-backdrop {
@@ -704,26 +704,24 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   border 250ms cubic-bezier(0.4, 0, 0.2, 1),
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex; 
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
 }
 
-.checkbox-form-input:checked
- + .checkbox-form-label
- > .checkbox-form-own{
-  background-color: #404bbf; 
-  border: none; 
-  fill: #F4F4FD;
- }
+.checkbox-form-input:checked + .checkbox-form-label > .checkbox-form-own {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 
- .form-checkbox-backdrop-link{
+.form-checkbox-backdrop-link {
   color: #4d5ae5;
- }
+}
 
- .form-backdrop-button-sent{
-  display: block; 
+.form-backdrop-button-sent {
+  display: block;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;
@@ -733,10 +731,10 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   border: none;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
 }
 
 .container {
