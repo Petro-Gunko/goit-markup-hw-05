@@ -732,7 +732,7 @@ ul {
 .checkbox-form-input:checked + .checkbox-form-label > .checkbox-form-own {
   background-color: #404bbf;
   border: none;
-  fill: #4d5ae5;
+  fill: #F4F4FD;
 }
 
 .form-checkbox-backdrop-link {
