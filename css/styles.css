@@ -479,6 +479,7 @@ ul {
 .list-socials-footer {
   display: flex;
   gap: 16px;
+  margin-right: 80px;
 }
 .item-socials-footer {
   width: 40px;
@@ -509,7 +510,6 @@ ul {
 .form-subscribe {
   display: flex;
   gap: 24px;
-  flex-direction: column;
 }
 
 .text-modal-email {
@@ -554,7 +554,9 @@ ul {
 
 .img-btn-form-footer {
   margin-left: 16px;
+  fill: #fff;
 }
+
 
 .backdrop {
   position: fixed;
@@ -565,6 +567,16 @@ ul {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .backdrop-modal {
@@ -597,7 +609,7 @@ ul {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-backdrop-close:hover,
 .btn-backdrop-close:focus {
@@ -664,9 +676,6 @@ ul {
 .img-form-backdrop:focus {
   fill: #4d5ae5;
 }
-.icon-person-backdrop{
-  fill:#4d5ae5;
-}
 
 .container-form-comment {
   margin-bottom: 16px;
@@ -688,7 +697,7 @@ ul {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .field-text-form:focus {
-  border-color: #4D5AE5; 
+  border-color: #4d5ae5;
 }
 
 .checkbox-form-container {
@@ -707,21 +716,24 @@ ul {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+  cursor: pointer;
 }
+/* .img-form-checkbox-backdrop {
+  flex-shrink: 0;
+} */
 
 .checkbox-form-input:checked + .checkbox-form-label > .checkbox-form-own {
   background-color: #404bbf;
   border: none;
-  fill: #f4f4fd;
+  fill: #4d5ae5;
 }
-
 
 .form-checkbox-backdrop-link {
   color: #4d5ae5;
