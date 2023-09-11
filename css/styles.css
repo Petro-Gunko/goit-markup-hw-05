@@ -725,9 +725,6 @@ ul {
   margin-right: 8px;
   cursor: pointer;
 }
-/* .img-form-checkbox-backdrop {
-  flex-shrink: 0;
-} */
 
 .checkbox-form-input:checked + .checkbox-form-label > .checkbox-form-own {
   background-color: #404bbf;
